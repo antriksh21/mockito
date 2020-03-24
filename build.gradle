@@ -18,6 +18,16 @@ plugins {
     id 'com.gradle.build-scan' version '2.2.1'
     id "com.diffplug.gradle.spotless" version "3.24.3"
     id 'eclipse'
+    id "org.sonarqube" version "2.8"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "deikyb_mockito2"
+        property "sonar.organization", "deikyb"
+        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.login", "40721896fa0356e62fb60b70b484c24526a59032"
+    }
 }
 
 description = 'Mockito mock objects library core API and implementation'
