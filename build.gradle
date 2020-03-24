@@ -9,7 +9,7 @@ buildscript {
         classpath 'gradle.plugin.nl.javadude.gradle.plugins:license-gradle-plugin:0.14.0'
         classpath 'net.ltgt.gradle:gradle-errorprone-plugin:0.6'
 
-        //Using buildscript.classpath so that we can resolve shipkit from maven local, during local testing
+        //Using buildscript.classpath so that we can resolve shipkit from maven local, during local testin
         classpath 'org.shipkit:shipkit:2.1.6'
     }
 }
